@@ -1,15 +1,14 @@
 {
   "files": {
-    "main.css": "/tactigear/static/css/main.63ed1e89.css",
-    "main.js": "/tactigear/static/js/main.d2d7204c.js",
-    "static/media/tactical-bg.jpg": "/tactigear/static/media/tactical-bg.54b20b9f18f9e737136a.jpg",
+    "main.css": "/tactigear/static/css/main.aa907de7.css",
+    "main.js": "/tactigear/static/js/main.92a46e2d.js",
     "static/media/tactical-gear-3.jpg": "/tactigear/static/media/tactical-gear-3.64781114bb3d7f735769.jpg",
     "index.html": "/tactigear/index.html",
-    "main.63ed1e89.css.map": "/tactigear/static/css/main.63ed1e89.css.map",
-    "main.d2d7204c.js.map": "/tactigear/static/js/main.d2d7204c.js.map"
+    "main.aa907de7.css.map": "/tactigear/static/css/main.aa907de7.css.map",
+    "main.92a46e2d.js.map": "/tactigear/static/js/main.92a46e2d.js.map"
   },
   "entrypoints": [
-    "static/css/main.63ed1e89.css",
-    "static/js/main.d2d7204c.js"
+    "static/css/main.aa907de7.css",
+    "static/js/main.92a46e2d.js"
   ]
 }
