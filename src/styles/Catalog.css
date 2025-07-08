@@ -1,0 +1,62 @@
+.catalog-page {
+  display: flex;
+  flex-direction: column;
+}
+
+.catalog-hero {
+  background: url('../../public/tactical-gear-3.jpg') center center / cover no-repeat;
+  color: white;
+  text-align: center;
+  padding: 6rem 2rem;
+  position: relative;
+}
+
+.catalog-hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+
+.catalog-hero h1,
+.catalog-hero p {
+  position: relative;
+  z-index: 2;
+}
+
+.catalog-hero h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.catalog-hero p {
+  font-size: 1.2rem;
+  color: #ddd;
+}
+
+@media (max-width: 768px) {
+  .catalog-hero {
+    padding: 4rem 1rem;
+  }
+
+  .catalog-hero h1 {
+    font-size: 2rem;
+  }
+
+  .catalog-hero p {
+    font-size: 1rem;
+  }
+
+.products {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
+
+  @media (max-width: 420px) {
+    .products {
+      grid-template-columns: 1fr;
+      justify-items: center;
+    }
+  }
+}

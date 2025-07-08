@@ -1,0 +1,26 @@
+body {
+  font-family: 'Oswald', sans-serif;
+}
+
+h1, h2, .hero-title {
+  font-family: 'Bebas Neue', sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html, body, #root {
+  height: 100%;
+  margin: 0;
+}
+.app-wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+.app-wrapper > *:not(.footer, .header) {
+  flex: 1;
+}

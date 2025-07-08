@@ -1,0 +1,42 @@
+.header {
+  background-color: #1e1e1e;
+  color: #fff;
+  padding: 0.5rem 1.5rem; /* Меньше вертикального паддинга */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px !important;
+  box-sizing: border-box;
+}
+
+
+.logo a {
+  text-decoration: none;
+  color: #f3c969;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav a {
+  margin-left: 1.5rem;
+  color: white;
+  text-decoration: none;
+}
+
+.nav a:hover {
+  text-decoration: underline;
+}
+
+.cart-badge {
+  background-color: red;
+  color: white;
+  font-size: 0.7rem;
+  padding: 2px 6px;
+  border-radius: 50%;
+  margin-left: 6px;
+  vertical-align: top;
+}
+
+.cart-symbol {
+  font-size: 22px;
+}
