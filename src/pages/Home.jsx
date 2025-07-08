@@ -23,7 +23,7 @@ export default function Home() {
   return (
     <div className="scroll-container">
       {/* Hero section */}
-      <section className="hero fullscreen-section" style={{ backgroundImage: "url('/tactical-bg.jpg')" }}>
+      <section className="hero fullscreen-section" style={{ backgroundImage: `url(${process.env.PUBLIC_URL}/tactical-bg.jpg)` }}>
         <div className="hero-overlay fade-in">
           <h1>TactiGear</h1>
           <p>Premium tactical apparel for those who demand performance</p>
@@ -45,7 +45,7 @@ export default function Home() {
 
       <section
         className="fullscreen-section"
-        style={{ backgroundImage: "url('/tactical-gear-1.jpg')" }}
+        style={{ backgroundImage: `url(${process.env.PUBLIC_URL}/tactical-gear-1.jpg)` }}
       >
         <h2 className="fade-in">Unmatched Performance</h2>
         <p className="fade-in delay-1">Gear tested in the toughest conditions</p>
@@ -56,7 +56,7 @@ export default function Home() {
 
       <section
         className="fullscreen-section"
-        style={{ backgroundImage: "url('/tactical-gear-2.jpg')" }}
+        style={{ backgroundImage: `url(${process.env.PUBLIC_URL}/tactical-gear-2.jpg)` }}
       >
         <h2 className="fade-in">Trusted by Professionals</h2>
         <p className="fade-in delay-1">Worn by military, security and adventurers</p>

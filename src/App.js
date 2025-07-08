@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import Catalog from "./pages/Catalog";
 import Cart from "./pages/Cart";
@@ -13,12 +13,10 @@ import { CartProvider } from "./components/CartContext";
 export default function App() {
   return (
     <CartProvider>
-      <BrowserRouter>
+      <Router>
         <div className="app-wrapper">
           <Header />
-
           <CartModal />
-
           <main>
             <Routes>
               <Route path="/" element={<Home />} />
@@ -28,10 +26,10 @@ export default function App() {
               <Route path="/checkout" element={<Checkout />} />
             </Routes>
           </main>
-
           <Footer />
         </div>
-      </BrowserRouter>
+      </Router>
     </CartProvider>
   );
 }
+

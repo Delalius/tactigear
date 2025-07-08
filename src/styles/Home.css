@@ -56,7 +56,7 @@
 }
 
 .hero {
-  background-image: url('../../public/tactical-bg.jpg');
+  background-image: url(${process.env.PUBLIC_URL}/tactical-bg.jpg);
 }
 
 .hero-overlay {
