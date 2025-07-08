@@ -55,9 +55,6 @@
   background: rgba(0, 0, 0, 0.7);
 }
 
-.hero {
-  background-image: url(${process.env.PUBLIC_URL}/tactical-bg.jpg);
-}
 
 .hero-overlay {
   background-color: rgba(0, 0, 0, 0.65);
