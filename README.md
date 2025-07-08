@@ -31,6 +31,11 @@ TactiGear is a modern and responsive frontend for a tactical gear e-commerce sto
 
 ---
 
+📌 Note
+This is a portfolio/demo project. Product images and data are used for educational purposes only and belong to their respective owners.
+
+---
+
 ## 🧰 Installation
 
 ```bash
@@ -38,6 +43,3 @@ git clone https://github.com/Delalius/tactigear.git
 cd tactigear
 npm install
 npm start
-
-📌 Note
-This is a portfolio/demo project. Product images and data are used for educational purposes only and belong to their respective owners.
